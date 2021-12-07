@@ -1,43 +1,103 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Таймер до Нового Года</title>
+    <title>Pet naturals</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <div class="timer" id="timer-1">
-      <div class="field">
-        <span class="value" data-value="days">11</span>
-        <span class="label">Days</span>
-      </div>
-    
-      <div class="field">
-        <span class="value" data-value="hours">11</span>
-        <span class="label">Hours</span>
-      </div>
-    
-      <div class="field">
-        <span class="value" data-value="mins">11</span>
-        <span class="label">Minutes</span>
-      </div>
-    
-      <div class="field">
-        <span class="value" data-value="secs">11</span>
-        <span class="label">Seconds</span>
-      </div>
-    </div>
+    <!-- Header-->
+    <header>
+      <a href="./index.html">
+        <img src="./images/header/header-logo.png" alt="header-logo">
+      </a>
+      <ul>
+        <li>ORDER</li>
+        <li>ABOUT</li>
+        <li>RESULTS</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Pet Naturals of Vermont, Calming, For Cats</h1>
+        <section>
+          <div>
+            <p>Your cat deserves the best pet supplement the world has to offer.
+              That's what's in the package.</p>
+            <ul>
+              <li>Features a patented calming blend</li>
+              <li>Doesn’t contain herbal ingredients</li>
+              <li>Helps manage everyday stress</li>
+            </ul>
+          </div>
+          <div>
+            <img src="./images/hero/hero-img.webp" alt="hero-img">
+          </div>
+          <div>
+            <form action="">
+              <span>TIME LEFT</span>
+              <span>2:00:00</span>
+              <span>120uah</span>
+              <span>60uah</span>
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="tel">
+              <button type="button">ORDER</button>
+              <span>Order date: <span>17.11.2021</span></span>
+            </form>
+          </div>
+        </section>
+      </section>
+      <section>
+        <h2>From the manufacturer</h2>
+        <ul>
+          <li>
+            <img src="" alt="">
+            <div>
+              <h3>Keep Calm and Carry On</h3>
+              <p>Are you searching for a better way to ease your pet’s separation anxiety or stress? Calming chews help relieve
+              pet stress without corn, wheat or artificial ingredients.</p>
+            </div>
+          </li>
+          <li>
+            <img src="" alt="">
+            <div>
+              <h3>Peace of Mind</h3>
+              <p>Pet Naturals of Vermont’s research-backed formula makes it safe to double or triple the amount in times of added stress.</p>
+            </div>
+          </li>
+          <li>
+            <img src="" alt="">
+            <div>
+              <h3>More than a Tasty Treat</h3>
+              <p>Don’t let its satisfying chicken liver flavor fool you. Technically, Calming isn’t a treat but it sure tastes like one.
+              Reward your best buddy with a Calming chew.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Best Uses for Calming Chews</h2>
+        <div>
+          <p>Car rides. Vet visits. Thunderstorms. Boarding. Parties. These are just a handful of times when Calming chews may come
+          in handy. Does your dog hate to be left home alone? Does your cat love hiding under the bed? Serve up a Calming chew to
+          help soothe your furry pal’s anxiety and make your life easier, too!
+          
+          For Best Results:
+          
+          We recommend administering Calming chews 30 minutes prior to a stressful event. The 30-minute activation period gives
+          you a chance to increase dosage if you’re not seeing expected results. Calming is safe for unique stress inducing events
+          and for long-term use to help manage everyday stress.</p>
+          <img src="" alt="">
+        </div>
+      </section>      
+    </main>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
   </body>
