@@ -108,7 +108,7 @@ body {
 }
 .hero {
   padding-top: 150px;
-  height: 844px;
+  padding-bottom: 30px;
   background-image: linear-gradient(#2f303a66, #2f303a66), url(../src/images/hero/hero-main-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -133,19 +133,93 @@ body {
 }
 
 .hero-feature-list {
+  margin-top: 40px;
+  padding-top: 35px;
+  padding-right: 30px;
+  padding-bottom: 38px;
+  padding-left: 35px;
   background: #7fb3e1;
   border-radius: 20px;
 }
 .hero-feature-list__item {
+  padding-left: 35px;
   font-family: --main-font;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
   color: #dfe4de;
+  background-image: url(../src/images/hero/hero-cat-mark.svg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.order-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 270px;
+  background: #fdfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 20px 10px 10px;
+  padding-top: 23px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.order-form__header {
+  font-family: --main-font;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 1.18;
+  color: #483c08;
+}
+.order-form__timer {
+  font-family: --main-font;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #f6e791;
+}
+.order-form__description {
+  border-radius: 20px 20px 10px 10px;
+  background-image: url(../src/images/hero/rectangle.png);
+  background-size: 298px 120px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(#2f303a66, #2f303a66), url(../src/images/hero/hero-main-img@2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 844px;
   }
 }/*# sourceMappingURL=main.css.map */
