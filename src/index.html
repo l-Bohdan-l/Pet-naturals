@@ -10,31 +10,36 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.min.css">
   </head>
   <body>
     <!-- Header-->
-    <header>
-      <a href="./index.html">
-        <img src="./images/header/header-logo.png" alt="header-logo">
-      </a>
-      <ul>
-        <li>ORDER</li>
-        <li>ABOUT</li>
-        <li>RESULTS</li>
-      </ul>
+    <header class="header">
+      <div class="header-container container">
+        <a class="header-container__logo-bg" href="./index.html">
+          <img class="logo" src="./images/header/header-logo.png" alt="header-logo">
+        </a>
+        <ul class="header-menu-list header-menu-list__bg list">
+          <li class="header-menu-list__item">ORDER</li>
+          <li class="header-menu-list__item">ABOUT</li>
+          <li class="header-menu-list__item">RESULTS</li>
+        </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Pet Naturals of Vermont, Calming, For Cats</h1>
-        <section>
+      <section class="hero container">
+        <h1 class="hero__title">Pet Naturals of Vermont, Calming, For Cats</h1>
+        <div>
           <div>
-            <p>Your cat deserves the best pet supplement the world has to offer.
+            <p class="hero-features__description">Your cat deserves the best pet supplement the world has to offer.
               That's what's in the package.</p>
-            <ul>
-              <li>Features a patented calming blend</li>
-              <li>Doesn’t contain herbal ingredients</li>
-              <li>Helps manage everyday stress</li>
+            <ul class="hero-feature-list">
+              <li class="hero-feature-list__item">Features a patented calming blend</li>
+              <li class="hero-feature-list__item">Doesn’t contain herbal ingredients</li>
+              <li class="hero-feature-list__item">Helps manage everyday stress</li>
             </ul>
           </div>
           <div>
@@ -52,7 +57,7 @@
               <span>Order date: <span>17.11.2021</span></span>
             </form>
           </div>
-        </section>
+        </div>
       </section>
       <section>
         <h2>From the manufacturer</h2>
