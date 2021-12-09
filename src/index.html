@@ -47,43 +47,50 @@
           </div>
           <div>
             <form action="" class="order-form">
-              <div class="order-form__description triangle-down">
+              <div class="order-form__description">
                 <span class="order-form__header">TIME LEFT</span>
                 <span class="order-form__timer">2:00:00</span>
-                <span>120uah</span>
-                <span>60uah</span>
+                <div class="order-form__price">
+                  <span class="order-form__main-price">120uah</span>
+                  <span class="order-form__sell-price">60uah</span>
+                </div>
               </div>
-              <input type="text" placeholder="Name">
-              <input type="text" placeholder="tel">
-              <button type="button">ORDER</button>
-              <span>Order date: <span>17.11.2021</span></span>
+              <div class="order-form__body">
+                <div class="order-form__wrapper">
+                  <input class="order-form__input" type="text" name="user-name" class="modal-form-input" id="name" minlength="2"
+                  placeholder="Name" required>                 
+                </div>
+                <input class="order-form__input" type="text" placeholder="tel">
+                <button class="order-form__btn" type="submit">ORDER</button>
+                <span class="order-form__date">Order date: <span>17.11.2021</span></span>
+              </div>
             </form>
           </div>
         </div>
       </section>
-      <section>
-        <h2>From the manufacturer</h2>
-        <ul>
-          <li>
-            <img src="" alt="">
-            <div>
-              <h3>Keep Calm and Carry On</h3>
-              <p>Are you searching for a better way to ease your pet’s separation anxiety or stress? Calming chews help relieve
+      <section class="about-product container">
+        <h2 class="about-product__title">From the manufacturer</h2>
+        <ul class="about-product-list">
+          <li class="about-product-list__item about-product-list__item_padding">
+            <img src="./images/about/about-cat-sleeping.webp" alt="sleeping cat">
+            <div class="about-product-features about-product-features_padding">
+              <h3 class="about-product-features__title">Keep Calm and Carry On</h3>
+              <p class="about-product-features__description">Are you searching for a better way to ease your pet’s separation anxiety or stress? Calming chews help relieve
               pet stress without corn, wheat or artificial ingredients.</p>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
-            <div>
-              <h3>Peace of Mind</h3>
-              <p>Pet Naturals of Vermont’s research-backed formula makes it safe to double or triple the amount in times of added stress.</p>
+          <li class="about-product-list__item">
+            <img src="./images/about/about-lotus.webp" alt="lotus logo">
+            <div class="about-product-features">
+              <h3 class="about-product-features__title">Peace of Mind</h3>
+              <p class="about-product-features__description">Pet Naturals of Vermont’s research-backed formula makes it safe to double or triple the amount in times of added stress.</p>
             </div>
           </li>
-          <li>
-            <img src="" alt="">
-            <div>
-              <h3>More than a Tasty Treat</h3>
-              <p>Don’t let its satisfying chicken liver flavor fool you. Technically, Calming isn’t a treat but it sure tastes like one.
+          <li class="about-product-list__item">
+            <img src="./images/about/about-pet-food.webp" alt="pet food example">
+            <div class="about-product-features">
+              <h3 class="about-product-features__title">More than a Tasty Treat</h3>
+              <p class="about-product-features__description">Don’t let its satisfying chicken liver flavor fool you. Technically, Calming isn’t a treat but it sure tastes like one.
               Reward your best buddy with a Calming chew.</p>
             </div>
           </li>
