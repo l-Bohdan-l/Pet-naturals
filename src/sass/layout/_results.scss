@@ -13,7 +13,7 @@
   background-position: left bottom;
 
   &__title {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 52px;
     line-height: 1.17;
@@ -22,7 +22,7 @@
   }
 
   &__description {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-size: 18px;
     line-height: 1.28;
     color: #483c08;
@@ -80,10 +80,10 @@
     &__description:before {
       content: '';
       position: absolute;
-      top: 62px;
-      right: -109px;
+      top: 66px;
+      right: -114px;
       height: 6%;
-      width: 30%;
+      width: 32%;
       background: #d4df6d;
       transform: skew(0deg, 4deg) rotate(-99deg);
       border-radius: 5px;
@@ -94,10 +94,10 @@
     &__description:after {
       content: '';
       position: absolute;
-      top: 230px;
-      right: -107px;
+      top: 247px;
+      right: -114px;
       height: 6%;
-      width: 30%;
+      width: 33%;
       background: #d4df6d;
       transform: skew(0deg, 4deg) rotate(100deg);
       border-radius: 5px;

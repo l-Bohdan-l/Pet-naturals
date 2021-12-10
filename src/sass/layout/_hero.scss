@@ -7,7 +7,7 @@
   background-size: cover;
 
   &__title {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 52px;
     line-height: 1.17;
@@ -19,7 +19,7 @@
 .hero-features {
   &__description {
     margin-top: 42px;
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.31;
@@ -47,7 +47,7 @@
 
   &__item {
     padding-left: 35px;
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 22px;
     line-height: 1.18;
@@ -56,6 +56,10 @@
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
@@ -87,7 +91,7 @@
   margin-bottom: 20px;
 
   &__header {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 33px;
     line-height: 1.18;
@@ -95,7 +99,7 @@
   }
 
   &__timer {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -139,7 +143,7 @@
 
   &__main-price {
     position: relative;
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 30px;
     line-height: 1.17;
@@ -159,7 +163,7 @@
   }
 
   &__sell-price {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -170,7 +174,7 @@
     background: #a1d337;
     border-radius: 30px;
     border: none;
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 30px;
     line-height: 1.17;
@@ -202,7 +206,7 @@
   }
 
   &__input::placeholder {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 2.35;
@@ -271,7 +275,7 @@
     left: 220px;
     width: 710px;
     height: 417px;
-    top: 35px;
+    top: 50px;
   }
 
   .order-form {

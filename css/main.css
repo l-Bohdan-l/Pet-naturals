@@ -33,7 +33,7 @@ img {
 }
 
 body {
-  font-family: --main-font;
+  font-family: var(--main-font);
 }
 
 .container {
@@ -66,7 +66,7 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 10px;
 }
@@ -83,7 +83,7 @@ body {
   padding-top: 6px;
 }
 .header-menu-list__link {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -101,6 +101,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .header-container {
+    justify-content: space-between;
+  }
   .header-container__logo-bg {
     width: 300px;
   }
@@ -161,7 +164,7 @@ body {
   background-size: cover;
 }
 .hero__title {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 52px;
   line-height: 1.17;
@@ -171,7 +174,7 @@ body {
 
 .hero-features__description {
   margin-top: 42px;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.31;
@@ -198,7 +201,7 @@ body {
 }
 .hero-feature-list__item {
   padding-left: 35px;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
@@ -207,6 +210,9 @@ body {
   background-position: 0 0;
   background-size: 1.6rem 1.6rem;
   background-repeat: no-repeat;
+}
+.hero-feature-list__item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .hero-img {
@@ -237,14 +243,14 @@ body {
   margin-bottom: 20px;
 }
 .order-form__header {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 33px;
   line-height: 1.18;
   color: #483c08;
 }
 .order-form__timer {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -284,7 +290,7 @@ body {
 }
 .order-form__main-price {
   position: relative;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 30px;
   line-height: 1.17;
@@ -302,7 +308,7 @@ body {
   transform: rotate(162.55deg);
 }
 .order-form__sell-price {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -312,7 +318,7 @@ body {
   background: #a1d337;
   border-radius: 30px;
   border: none;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 30px;
   line-height: 1.17;
@@ -340,7 +346,7 @@ body {
   margin-bottom: 15px;
 }
 .order-form__input::placeholder {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 2.35;
@@ -399,7 +405,7 @@ body {
     left: 220px;
     width: 710px;
     height: 417px;
-    top: 35px;
+    top: 50px;
   }
 
   .order-form {
@@ -474,7 +480,7 @@ body {
   margin-top: 0;
 }
 .about-product-features__title {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
@@ -483,7 +489,7 @@ body {
 }
 .about-product-features__description {
   margin-top: 19px;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-size: 18px;
   line-height: 1.17;
   color: #483c08;
@@ -524,7 +530,7 @@ body {
   background-position: left bottom;
 }
 .results__title {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 52px;
   line-height: 1.17;
@@ -532,7 +538,7 @@ body {
   color: #537d13;
 }
 .results__description {
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-size: 18px;
   line-height: 1.28;
   color: #483c08;
@@ -572,10 +578,10 @@ body {
   .results__description:before {
     content: "";
     position: absolute;
-    top: 62px;
-    right: -109px;
+    top: 66px;
+    right: -114px;
     height: 6%;
-    width: 30%;
+    width: 32%;
     background: #d4df6d;
     transform: skew(0deg, 4deg) rotate(-99deg);
     border-radius: 5px;
@@ -585,10 +591,10 @@ body {
   .results__description:after {
     content: "";
     position: absolute;
-    top: 230px;
-    right: -107px;
+    top: 247px;
+    right: -114px;
     height: 6%;
-    width: 30%;
+    width: 33%;
     background: #d4df6d;
     transform: skew(0deg, 4deg) rotate(100deg);
     border-radius: 5px;

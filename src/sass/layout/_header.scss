@@ -5,7 +5,7 @@
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 10px;
 
@@ -23,7 +23,7 @@
   padding-top: 6px;
 
   &__link {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
@@ -45,6 +45,7 @@
 
 @media screen and (min-width: 768px) {
   .header-container {
+    justify-content: space-between;
     &__logo-bg {
       width: 300px;
     }

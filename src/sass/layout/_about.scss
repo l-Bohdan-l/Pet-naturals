@@ -74,7 +74,7 @@
   }
 
   &__title {
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 22px;
     line-height: 1.18;
@@ -84,7 +84,7 @@
 
   &__description {
     margin-top: 19px;
-    font-family: --main-font;
+    font-family: var(--main-font);
     font-size: 18px;
     line-height: 1.17;
     color: #483c08;
