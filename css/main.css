@@ -381,6 +381,26 @@ body {
     margin-top: 20px;
   }
 }
+@media screen and (min-width: 1140px) {
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .hero-features-wrapper {
+    width: 330px;
+  }
+
+  .hero-img {
+    position: absolute;
+    z-index: 99;
+    left: 200px;
+    width: 710px;
+    height: 417px;
+    top: 50px;
+  }
+}
 .about-product {
   background-image: url(../src/images/about/about-pet-paw.svg);
   padding-top: 50px;
@@ -477,6 +497,18 @@ body {
 
   .about-product-list {
     margin-top: 60px;
+  }
+  .about-product-list__item {
+    margin-bottom: 0;
+  }
+  .about-product-list__item:not(:last-child) {
+    margin-right: 84px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .about-product-list {
+    flex-direction: row;
   }
 }
 .results {

@@ -253,3 +253,24 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (min-width: 1140px) {
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .hero-features-wrapper {
+    width: 330px;
+  }
+
+  .hero-img {
+    position: absolute;
+    z-index: 99;
+    left: 200px;
+    width: 710px;
+    height: 417px;
+    top: 50px;
+  }
+}
