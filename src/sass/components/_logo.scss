@@ -10,3 +10,11 @@
     width: 283px;
   }
 }
+
+@media screen and (min-width: 1140px) {
+  .logo {
+    width: 283px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+}
