@@ -80,15 +80,15 @@
     &__description:before {
       content: '';
       position: absolute;
-      top: 59px;
-      right: -106px;
+      top: 62px;
+      right: -109px;
       height: 6%;
-      width: 29%;
+      width: 30%;
       background: #d4df6d;
-      transform: skew(0deg, 4deg) rotate(-100deg);
+      transform: skew(0deg, 4deg) rotate(-99deg);
       border-radius: 5px;
-      /* border-top-right-radius: 20px; */
       border-bottom-right-radius: 100px;
+      border-bottom-left-radius: 45px;
     }
 
     &__description:after {
@@ -97,11 +97,11 @@
       top: 230px;
       right: -107px;
       height: 6%;
-      width: 29%;
+      width: 30%;
       background: #d4df6d;
       transform: skew(0deg, 4deg) rotate(100deg);
       border-radius: 5px;
-      border-top-right-radius: 30px;
+      border-top-right-radius: 15px;
     }
   }
 }
