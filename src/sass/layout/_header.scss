@@ -22,7 +22,7 @@
   height: 70px;
   padding-top: 6px;
 
-  &__item {
+  &__link {
     font-family: --main-font;
     font-weight: 700;
     font-size: 14px;
@@ -30,6 +30,7 @@
     text-decoration-line: underline;
     color: #715d00;
   }
+
   &__item:not(:last-child) {
     margin-bottom: 5px;
   }
@@ -49,7 +50,7 @@
     }
   }
   .header-menu-list {
-    &__item {
+    &__link {
       font-size: 20px;
     }
   }

@@ -76,7 +76,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 270px;
   background: #fdfcfc;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px 20px 10px 10px;
@@ -108,7 +108,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 151px;
-    width: 300px;
+    width: 270px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: #7fb3e1;
@@ -121,14 +121,14 @@
   &__description:after {
     content: '';
     height: 0;
-    width: 300px;
+    width: 270px;
     position: absolute;
     left: 0;
     top: 150px;
     transform: rotate(180deg);
     border-bottom: 20px solid #7fb3e1;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
   }
 
   &__body {
@@ -268,9 +268,13 @@
   .hero-img {
     position: absolute;
     z-index: 99;
-    left: 200px;
+    left: 220px;
     width: 710px;
     height: 417px;
-    top: 50px;
+    top: 35px;
+  }
+
+  .order-form {
+    top: 20px;
   }
 }

@@ -104,19 +104,19 @@
   }
   .about-product-list {
     margin-top: 60px;
-
-    &__item {
-      margin-bottom: 0;
-    }
-    &__item:not(:last-child) {
-      margin-right: 84px;
-      margin-bottom: 0;
-    }
   }
 }
 
 @media screen and (min-width: 1140px) {
   .about-product-list {
     flex-direction: row;
+    &__item {
+      margin-bottom: 0;
+    }
+
+    &__item:not(:last-child) {
+      margin-right: 84px;
+      margin-bottom: 0;
+    }
   }
 }
