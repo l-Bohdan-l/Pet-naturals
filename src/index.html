@@ -58,7 +58,7 @@
               <form action="" class="order-form">
                 <div class="order-form__description">
                   <span class="order-form__header">TIME LEFT</span>
-                  <span class="order-form__timer">2:00:00</span>
+                  <span id='timer' class="order-form__timer">2:00:00</span>
                   <div class="order-form__price">
                     <span class="order-form__main-price">120uah</span>
                     <span class="order-form__sell-price">60uah</span>
@@ -69,9 +69,9 @@
                     <input class="order-form__input" type="text" name="user-name" class="modal-form-input" id="name" minlength="2"
                       placeholder="Name" required>
                   </div>
-                  <input class="order-form__input" type="text" placeholder="tel">
-                  <button class="order-form__btn" type="submit">ORDER</button>
-                  <span class="order-form__date">Order date: <span>17.11.2021</span></span>
+                  <input required class="order-form__input" type="tel" placeholder="+38(0__)___-__-__" pattern="^\+\d{2}\(\d{3}\)\s\d{3}[-]\d{2}[-]\d{2}$">
+                  <button class="order-form__btn" type="submit" >ORDER</button>
+                  <span class="order-form__date">Order date: <span id='date'>17.11.2021</span></span>
                 </div>
               </form>
             </div>
