@@ -1,6 +1,6 @@
 const timerEl = document.getElementById('timer');
 let count = 7200;
-let counter = setInterval(timer, 1000); //1000 will  run it every 1 second
+let counter = setInterval(timer, 1000);
 
 function timer() {
     count = count - 1;
@@ -19,6 +19,6 @@ function timer() {
     if (minutes < 10) minutes = "0" + minutes;
     if (hours < 10) hours = "0" + hours;
 
-    timerEl.innerHTML = hours + ":" + minutes + ":" + seconds; // watch for spelling
+    timerEl.innerHTML = hours + ":" + minutes + ":" + seconds; 
 }
 
