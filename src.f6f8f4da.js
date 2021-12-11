@@ -8,6 +8,6 @@ var e;!function(t,a){if("object"==typeof exports&&"object"==typeof module)module
 },{}],"WyBo":[function(require,module,exports) {
 "use strict";var e=t(require("inputmask"));function t(e){return e&&e.__esModule?e:{default:e}}const n=document.querySelector('input[type="tel"]');function u(e){e.preventDefault()}(0,e.default)({mask:"+38(999) 999-99-99",showMaskOnHover:!1}).mask(n),n.addEventListener("click",u);
 },{"inputmask":"EfSv"}],"Focm":[function(require,module,exports) {
-"use strict";require("./js/changeDate"),require("./js/setTimer"),require("./js/telMask");const e=document.querySelector('input[type="tel"]');e.addE;
+"use strict";require("./js/changeDate"),require("./js/setTimer"),require("./js/telMask");
 },{"./js/changeDate":"kuEr","./js/setTimer":"pHqn","./js/telMask":"WyBo"}]},{},["Focm"], null)
-//# sourceMappingURL=/Pet-naturals/src.1d04804d.js.map
+//# sourceMappingURL=/Pet-naturals/src.f6f8f4da.js.map
