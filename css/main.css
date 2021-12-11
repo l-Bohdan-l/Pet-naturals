@@ -158,7 +158,6 @@ body {
 }
 .hero {
   padding-top: 150px;
-  padding-bottom: 30px;
   background-image: linear-gradient(#2f303a66, #2f303a66), url(../src/images/hero/hero-main-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,10 +495,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .about-product {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
   .about-product__title {
     background-image: linear-gradient(180deg, #f9e994 5%, #537d13 70%, #483c08 100%);
     font-size: 52px;
@@ -602,9 +597,6 @@ body {
   }
 }
 @media screen and (min-width: 1140px) {
-  .results {
-    padding-top: 100px;
-  }
   .results__description {
     margin-right: 28px;
   }
