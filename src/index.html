@@ -19,6 +19,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.min.css" />
+    <script src="
+https://aibotnr-4539-667c0a3011b6571100000122.ubos.tech/ai-bot-chat@main/dist/build/static/js/bundle.min.js"></script>
   </head>
   <body>
     <!-- Header-->
@@ -166,7 +168,7 @@
       </section>
     </main>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script>
+    <!-- <script>
       window.__lc = window.__lc || {};
       window.__lc.license = 18399993;
       window.__lc.integration_name = 'manual_onboarding';
@@ -212,7 +214,26 @@
       <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank"
         >LiveChat</a
       ></noscript
-    >
+    > -->
+
+    <script>
+      (function (d, t) {
+        var BASE_URL = 'https://chatwoot-4021-667c0a3011b6571100000122.ubos.tech';
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + '/packs/js/sdk.js';
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+        g.onload = function () {
+          window.chatwootSDK.run({
+            websiteToken: 'KmtKEo8oL1fmuULo8oCqTRPv',
+            baseUrl: BASE_URL,
+          });
+        };
+      })(document, 'script');
+    </script>
+
     <script src="./index.js"></script>
   </body>
 </html>
